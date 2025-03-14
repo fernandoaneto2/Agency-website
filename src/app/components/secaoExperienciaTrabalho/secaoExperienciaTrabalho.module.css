@@ -1,0 +1,39 @@
+.light .dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  text-align: center;
+  transition: background 0.5s, color 0.5s;
+  height: 90vh;
+}
+
+/* Tema Claro */
+.light {
+  background: #f6f8fc;
+  color: #000000;
+}
+
+/* Tema Escuro */
+.dark {
+  background: #1e1e1e;
+  color: #ffffff;
+}
+
+.titulo_experiencias {
+  padding: 0 200px;
+}
+.titulo_experiencias h2 {
+  font-size: 45px;
+}
+.titulo_experiencias p {
+  font-size: 15px;
+}
+
+.secao_cards {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  items-align: center;
+  justify-content: center;
+}

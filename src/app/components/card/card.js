@@ -1,10 +1,13 @@
-const Card = () => {
+import React from "react";
+import styles from "./card.module.css";
+
+const Card = ({ data, funcao, local, descricao, tema }) => {
   return (
-    <div>
-      <span></span>
-      <h3></h3>
-      <small></small>
-      <p></p>
+    <div className={`${styles.container} ${styles[tema]}`}>
+      <span>{data}</span>
+      <h3>{funcao}</h3>
+      <small>{local}</small>
+      <p>{descricao}</p>
     </div>
   );
 };

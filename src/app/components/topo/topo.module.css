@@ -6,7 +6,7 @@
   justify-content: space-between;
   padding: 20px;
   text-align: center;
-  transition: background 0.3s, color 0.3s;
+  transition: background 0.5s, color 0.5s;
   height: 10vh;
 }
 

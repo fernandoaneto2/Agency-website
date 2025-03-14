@@ -4,22 +4,15 @@ import React from "react";
 import Image from "next/image";
 import styles from "./topo.module.css";
 
-const Topo = () => {
-  const [tema, setTema] = useState("light");
-
-  function alterarTema() {
-    if (tema === "light") {
-      setTema("dark");
-    } else {
-      setTema("light");
-    }
-  }
-
+const Topo = ({ tema, alterarTema, simbolo }) => {
   return (
-    <div className={styles.container}>
+    <header className={`{styles.container} ${styles[tema]}`}>
       {/* <Image src={} alt /> */}
-      <button onClick={alterarTema}>SIMBOLO TEMA</button>
-    </div>
+      <h1>logo</h1>
+      <button className={styles.btnFormat} onClick={alterarTema}>
+        {simbolo}
+      </button>
+    </header>
   );
 };
 

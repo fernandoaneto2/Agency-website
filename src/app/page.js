@@ -35,7 +35,7 @@ const HomePage = () => {
         </SecaoExperienciaTrabalho>
       </main>
       <footer>
-        <Rodape />
+        <Rodape tema={tema} />
       </footer>
     </div>
   );

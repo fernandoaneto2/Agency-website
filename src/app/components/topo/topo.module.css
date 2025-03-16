@@ -8,6 +8,12 @@
   text-align: center;
   transition: background 0.5s, color 0.5s;
   height: 10vh;
+  width: 100%;
+  position: fixed;
+
+  top: 0;
+  left: 0; /* Defina um valor fixo */
+  z-index: 1000;
 }
 
 /* Tema Claro */
@@ -18,7 +24,7 @@
 
 /* Tema Escuro */
 .dark {
-  background: #1e1e1e;
+  background: #000;
   color: #ffffff;
 }
 
@@ -32,11 +38,11 @@
 }
 
 .light button {
-  background: #000;
-  color: #fff;
+  background: #ffffff;
+  color: #022144;
 }
 
 .dark button {
-  background: #fff;
-  color: #000;
+  background: #022144;
+  color: #ffffff;
 }

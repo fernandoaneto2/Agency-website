@@ -1,0 +1,5 @@
+.container {
+  display: flex;
+  align-items: stretch; /* Faz as seções ficarem alinhadas */
+  flex-direction: column;
+}

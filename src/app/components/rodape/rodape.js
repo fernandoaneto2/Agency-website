@@ -9,9 +9,9 @@ import imageWeb from "../../../../public/dribble.png";
 import imageBe from "../../../../public/behance.png";
 import imageGoogle from "../../../../public/google.png";
 
-const Rodape = () => {
+const Rodape = ({ tema }) => {
   return (
-    <footer>
+    <footer className={`${styles.container} ${styles[tema]}`}>
       <div>
         <div className={styles.container_frase}>
           <Image src={logo} alt={"Logo"} />

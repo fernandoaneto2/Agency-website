@@ -1,0 +1,22 @@
+.light,
+.dark {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: center;
+  transition: background 0.5s, color 0.5s;
+  height: 90vh;
+}
+
+/* Tema Claro */
+.light {
+  background: #ffffff;
+  color: #000000;
+}
+
+/* Tema Escuro */
+.dark {
+  background: #1e1e1e;
+  color: #ffffff;
+}

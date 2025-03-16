@@ -5,15 +5,13 @@ import Image from "next/image";
 const SecaoBanner = ({ tema }) => {
   return (
     <section className={`{styles.container} ${styles[tema]}`}>
-      <div>
-        <Image src={banner} alt={"banner"} />
+      <div className={styles.container_um}>
+        <Image className={styles.img} src={banner} alt={"banner"} />
       </div>
-      <div>
-        <p>BRANDING | UI | UX | TECNPOLOGIA</p>
-        <h2>
-          Agência de Branding
-          <span>e design digital</span>
-        </h2>
+      <div className={styles.container_dois}>
+        <p className={styles.subtitulo}>BRANDING / UI / UX / TECNOLOGIA</p>
+        <h2>Agência de Branding</h2>
+        <span className={styles.texto_bold}> e design digital</span>
       </div>
     </section>
   );

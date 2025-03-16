@@ -3,12 +3,57 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px;
   text-align: center;
   transition: background 0.5s, color 0.5s;
   height: 90vh;
+  padding-top: 10vh;
+}
+.img {
+  width: 50vw; /* 50% da largura da viewport */
+  height: 80vh; /* Mantém as proporção da imagem */
+  object-fit: cover;
 }
 
+.container_dois {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container_dois {
+  width: 50vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza o conteúdo verticalmente */
+  flex-wrap: wrap;
+  padding: 10px; /* Espaçamento para não colar na borda */
+  background-color: #f8f9fa; /* Cor de fundo sutil */
+}
+
+.subtitulo {
+  font-size: 0.9rem;
+  color: #6c757d; /* Cinza claro */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.container_dois h2 {
+  font-size: 2.5rem;
+  color: #1a1a2e;
+  line-height: 1.2;
+}
+.container_dois span {
+  font-size: 2.5rem;
+  color: #1a1a2e;
+  line-height: 1.2;
+}
+
+.container_dois span {
+  color: #000e4f;
+  font-size: bold;
+}
 /* Tema Claro */
 .light {
   background: #ffffff;

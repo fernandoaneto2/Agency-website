@@ -8,14 +8,11 @@
   height: 50vh;
 }
 
-.container_principal {
-  gap: 50px;
-}
 /* Container Frase */
 .container_frase {
   font-size: 20px;
   color: #cccccc;
-  padding: 50px 350px;
+
   padding-bottom: 20px;
 }
 .container_frase p {
@@ -28,12 +25,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 15px;
 }
 .icon {
   width: 40px;
   height: auto;
   object-fit: cover;
+  padding: 5px;
 }
 .icon:hover {
   transform: translateY(-2px);

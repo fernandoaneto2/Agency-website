@@ -46,3 +46,10 @@
   background: #1e1e1e;
   color: #ffffff;
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}

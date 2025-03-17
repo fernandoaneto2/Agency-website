@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const SecaoBanner = ({ tema }) => {
   return (
-    <section className={`{styles.container} ${styles[tema]}`}>
+    <section className={`${styles.container} ${styles[tema]}`}>
       <div className={styles.container_um}>
         <Image className={styles.img} src={banner} alt={"banner"} />
       </div>

@@ -52,4 +52,52 @@
     width: 100%;
     padding: 10px;
   }
+  .container h3 {
+    font-size: 20px;
+  }
+  .container p {
+    font-size: 14px;
+  }
+  .container span {
+    font-size: 9px;
+  }
+  .container small {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1080px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+  .container h3 {
+    font-size: 30px;
+  }
+  .container p {
+    font-size: 20px;
+  }
+  .container span {
+    font-size: 15px;
+  }
+  .container small {
+    font-size: 14px;
+  }
+}
+@media (max-width: 360px) {
+  .container {
+    width: 100%;
+    padding: 5px;
+  }
+  .container h3 {
+    font-size: 20px;
+  }
+  .container p {
+    font-size: 14px;
+  }
+  .container span {
+    font-size: 10px;
+  }
+  .container small {
+    font-size: 10px;
+  }
 }

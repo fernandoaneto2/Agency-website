@@ -64,11 +64,38 @@
     max-width: 100%;
     padding: 10px;
   }
+  .titulo_experiencias h2 {
+    font-size: 30px;
+  }
+  .titulo_experiencias p {
+    font-size: 15px;
+  }
   .secao_cards {
     flex-direction: column;
     gap: 20px;
     align-items: center;
     width: 50vw;
+    height: 100%;
+  }
+}
+@media (max-width: 1080px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+  .titulo_experiencias {
+    max-width: 100%;
+    padding: 15px;
+  }
+  .titulo_experiencias h2 {
+    font-size: 35px;
+  }
+  .titulo_experiencias p {
+    font-size: 18px;
+  }
+  .secao_cards {
+    gap: 30px;
+
     height: 100%;
   }
 }

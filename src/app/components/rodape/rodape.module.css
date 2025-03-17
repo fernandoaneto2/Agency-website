@@ -1,14 +1,50 @@
-.light,
-.dark {
+.container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   padding: 20px;
   text-align: center;
   transition: background 0.5s, color 0.5s;
-  height: 90vh;
+  height: 50vh;
 }
 
+.container_principal {
+  gap: 50px;
+}
+/* Container Frase */
+.container_frase {
+  font-size: 20px;
+  color: #cccccc;
+  padding: 50px 350px;
+  padding-bottom: 20px;
+}
+.container_frase p {
+  padding-top: 30px;
+}
+
+/* Container Icones */
+.container_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.icon {
+  width: 40px;
+  height: auto;
+  object-fit: cover;
+}
+.icon:hover {
+  transform: translateY(-2px);
+  transition: background 0.2s, color 0.2s;
+}
+
+/* NOME COPYRIGHT AMARELO */
+.nome_amarelo {
+  color: #feb633;
+  font-weight: bold;
+}
 /* Tema Claro */
 .light {
   background: #ffffff;

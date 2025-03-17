@@ -7,6 +7,7 @@ const SecaoExperienciaTrabalho = ({ tema }) => {
     <section className={`${styles.container} ${styles[tema]}`}>
       <div className={styles.titulo_experiencias}>
         <h2>Experiências De Trabalho</h2>
+        <span className={styles.linha}></span>
         <p>
           Há mais de 10 anos no mercado de Branding, Design Gráfico, Criação de
           Sites e Marketing Digital, nos empenhamos diariamente para entregar

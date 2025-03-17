@@ -1,15 +1,38 @@
-.light,
-.dark {
+.container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 20px;
-  text-align: center;
+  text-align: start;
   transition: background 0.5s, color 0.5s;
   height: 350px;
   width: 25vw;
   border: 1px solid #cccccc;
   border-radius: 5px;
+}
+.container h3 {
+  font-size: 25px;
+  color: #feb633;
+}
+.container p {
+  font-size: 18px;
+  color: #6c757d;
+}
+.container span {
+  font-size: 20px;
+  color: #6c757d;
+  font-weight: bold;
+}
+.container small {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.container:hover {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  transition: background 0.2s, color 0.2s;
 }
 
 /* Tema Claro */

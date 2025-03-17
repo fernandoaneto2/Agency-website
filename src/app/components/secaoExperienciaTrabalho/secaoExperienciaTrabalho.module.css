@@ -1,10 +1,43 @@
-.light .dark {
+.container {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
+  align-items: center;
   transition: background 0.5s, color 0.5s;
   height: 90vh;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.titulo_experiencias {
+  max-width: 800px;
+  padding: 50px;
+  text-align: center;
+}
+.titulo_experiencias h2 {
+  font-size: 45px;
+}
+.linha {
+  display: block;
+  width: 50px;
+  height: 4px;
+  background-color: #feb633;
+  margin: 8px auto 0;
+}
+.titulo_experiencias p {
+  font-size: 20px;
+  color: #6c757d;
+  padding-top: 15px;
+}
+
+.secao_cards {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  items-align: center;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 
 /* Tema Claro */
@@ -15,24 +48,6 @@
 
 /* Tema Escuro */
 .dark {
-  background: #1e1e1e;
+  background: #252525;
   color: #ffffff;
-}
-
-.titulo_experiencias {
-  padding: 0 200px;
-}
-.titulo_experiencias h2 {
-  font-size: 45px;
-}
-.titulo_experiencias p {
-  font-size: 15px;
-}
-
-.secao_cards {
-  display: flex;
-  flex-direction: row;
-  gap: 0;
-  items-align: center;
-  justify-content: center;
 }
